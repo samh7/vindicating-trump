@@ -1,6 +1,14 @@
+"use client";
+import FeaturingSection from "./FeaturingSection";
+import Footer from "./Footer";
+import OrderBookSection from "./OrderBookSection";
+
 export default function HomeMain() {
   return (
-    <div className="h-[300vh] w-full bg-[#060717] text-white">
+    <div
+      className="h-[300vh]
+    w-full  bg-[#060717] text-white"
+    >
       {/* Text */}
       <div className="w-full h-[100px] px-20 flex justify-end">
         <span className="text-[20px] sm:text-3xl">
@@ -10,7 +18,7 @@ export default function HomeMain() {
         </span>
       </div>
       {/* bg lines + picture 1*/}
-      <div className="w-full grid place-items-center relative mb-24">
+      <div className="w-full grid place-items-center relative sm:mb-24">
         <div className="w-[90%] relative h-screen  px-10">
           <div className="w-full h-[300px] md:h-full -mt-7 border border-[#1e2230]"></div>
           <div className="absolute top-0 w-full  h-[300px] md:h-[85%] border border-[#1e2230] -ml-12 mt-12"></div>
@@ -31,14 +39,14 @@ export default function HomeMain() {
       </div>
       {/* Text */}
       <div className="mt-[-200px] md:mt-0 w-full h-[100px] px-20 flex justify-start">
-        <span className="text-[20px] sm:text-3xl">
+        <span className="text-[20px] sm:text-3xl -mt-24 sm:mt-0">
           STATEMENT BY DONALD J. TRUMP
           <br />
           ON "VINDICATING TRUMP"
         </span>
       </div>
       {/* bg lines + picture 2*/}
-      <div className="w-full grid place-items-center relative mb-24">
+      <div className="w-full grid place-items-center relative  sm:mb-24">
         <div className="w-[90%] relative h-screen  px-10">
           <div className="w-full h-[300px] md:h-full -mt-7 border border-[#1e2230]"></div>
           <div className="absolute top-0 w-full  h-[300px] md:h-[85%] border border-[#1e2230] -ml-12 mt-12"></div>
@@ -51,7 +59,7 @@ export default function HomeMain() {
           <div className="w-full left-0 h-full px-20 pb-10 mt-10 absolute top-0">
             <img
               className="w-[700px] md:w-full h-auto  md:h-full  md:object-cover "
-              src="/assets/video-poster.jpg"
+              src="/assets/president.png"
               alt="Trum holding his hand up in front of a crowd."
             />
           </div>
@@ -61,6 +69,10 @@ export default function HomeMain() {
       <div className="w-full flex justify-center mt-[-250px] sm:mt-0">
         <button className="w-[300px] h-[55px] bg-[#cc0000]">BUY DVD</button>
       </div>
+
+      <FeaturingSection />
+      <OrderBookSection />
+      <Footer />
     </div>
   );
 }
