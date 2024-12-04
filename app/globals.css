@@ -14,6 +14,27 @@
   }
 }
 
+:root{
+  overflow-x: hidden;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.featured .individual-image-clip-path,
+.order-book .book-order-container-bottom {
+  clip-path: polygon(0 0, 100% 0, 100% 73%, 73% 100%, 0 100%, 0% 50%);
+}
+
+.featured .main-image-clip-path{
+  clip-path: polygon(13% 0, 100% 0, 100% 100%, 73% 100%, 0 100%, 0 13%);
+}
+
+.order-book .book-order-container {
+clip-path: polygon(13% 0, 100% 0, 100% 100%, 86% 100%, 0 100%, 0 13%);
+}
+.order-book .book-order-container-whole {
+  clip-path: polygon(13% 0, 100% 0, 100% 84%, 86% 100%, 0 100%, 0 13%);
+}
+
+
