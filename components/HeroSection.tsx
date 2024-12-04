@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-b z-[-75] from-[rgba(0,0,0,.2)]  via-[#060717] to-[#060717]"></div>
       {/* waving flag */}
       <img
-        className="absolute top-0 left-0 z-[-100] h-screen w-screen"
+        className="absolute top-0 left-0 z-[-100] h-screen w-full"
         src="/assets/USA Flag Waving.webp"
         alt=""
       />
