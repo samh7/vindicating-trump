@@ -63,7 +63,7 @@ export default function HomeMain() {
         </div>
       </div>
 
-      <div className="w-full flex justify-center mt-[-150px] sm:mt-[-150px] md:mt-0">
+      <div className="w-full flex justify-center mt-[-250px] sm:mt-[-200px]  md:mt-0">
         <button className="w-[300px] h-[55px] relative z-[200] bg-[#cc0000]">BUY DVD</button>
       </div>
     </div>
