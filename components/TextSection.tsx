@@ -7,7 +7,7 @@ export default function TextSection() {
      bg-gradient-to-b from-[#0c1421]  to-[#060717]
     text-white"
     >
-      <div className="text-center w-[80%]">
+      <div className="text-center w-[95%] md:w-[90%]">
         This film is a journey to discover the real Donald Trump, and to make
         the case for him as a man and as a leader. It begins with a puzzle. How
         can a man be so intensely loved and hated? Not since Lincoln have we had
@@ -16,7 +16,7 @@ export default function TextSection() {
         Caesar who would promote lawlessness and subvert the foundations of our
         constitutional republic. Is Trump such a man?
       </div>
-      <div className="text-center w-[80%]">
+      <div className="text-center w-[95%] md:w-[90%]">
         The film shows Trump’s meteoric rise to billionaire status and cultural
         celebrity. Yet even if Trump is a larger than life figure who has the
         dimensions of a Caesar, he never did anything tyrannical. In fact,
@@ -26,7 +26,7 @@ export default function TextSection() {
         criminal indictments intended to lock him up for life, and even an
         attempted assassination.
       </div>
-      <div className="text-center w-[80%]">
+      <div className="text-center w-[95%] md:w-[90%]">
         The story line of the film is to show that Trump’s enemies—the Left and
         the Democrats—are the real Caesar. They are the ones creating
         lawlessness at the highest levels of government. They despise Trump
@@ -36,7 +36,7 @@ export default function TextSection() {
         Trump’s attorney. It also has an in-depth one-on-one interview with
         Trump himself.
       </div>
-      <div className="text-center w-[80%]">
+      <div className="text-center w-[95%] md:w-[90%]">
         Throughout the film there are entertaining and powerful re-creations of
         “war rooms”: a media war-room, a war room at the Democratic campaign
         headquarters, and a legal war-room where the criminal plots against
