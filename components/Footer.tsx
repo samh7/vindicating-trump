@@ -38,6 +38,7 @@ export default function Footer() {
 
         <div
           className="no-underline my-6
+          text-sm md:text-xl
         text-white
         "
         >

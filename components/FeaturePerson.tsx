@@ -9,22 +9,24 @@ export default function FeaturePerson({
   imgUrl: string;
 }) {
   return (
-    <div className="flex flex-col items-center relative">
+    <div className="flex flex-col items-center relative w-full">
       <div
         className={`absolute
-    -left-[10px]
+    left-[10px]
+    md:left-[25px]
     -top-[10px]
-    w-[50%]
-    sm:w-[200px]
+    sm:w-[150px]
     min-w-[150px]
+    z-[50]
     h-[200px] border border-white`}
       ></div>
       <div className="absolute inset-0 bg-[#060717]"></div>
       <img
         className={`
       individual-image-clip-path
-          w-[90%]
+          w-[70%]
     sm:w-[200px]
+    z-[50]
 
       h-[200px] aspect-square object-cover`}
         src={imgUrl}
@@ -36,8 +38,10 @@ export default function FeaturePerson({
 
     sm:w-[200px]
 
- flex justify-center uppercase font-bold text-xl
-        mt-[14px] relative z-[30]`}
+ flex justify-center uppercase font-bold sm:text-xl
+        mt-[14px]
+        ml-[5px]
+        relative z-[30]`}
       >
         {name}
       </span>

@@ -4,7 +4,9 @@ import FeaturePerson from "./FeaturePerson";
 
 export default function FeaturingSection() {
   return (
-    <div className="featured w-full flex flex-col lg:flex-row bg-[#060717] pt-[200px]">
+    <div className="featured w-full flex flex-col lg:flex-row bg-[#060717]
+    pt-[100px]
+    ">
       {/* left */}
       <div className="w-full lg:w-1/2 flex flex-col items-start justify-start">
         {/* row 1 */}
