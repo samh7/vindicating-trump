@@ -16,10 +16,10 @@ export default function HeroSection() {
       <img
         src="/assets/trump-hero-section.png"
         alt="Trump holding his hand up after a failed assassination attempt on his life."
-        className="h-[400px] mt-[-150px]  w-full  md:h-[150vh] md:mt-0 absolute z-[-50] scale-[1] md:object-fill"
+        className="h-[400px] mt-[-280px]  w-full  md:h-[150vh] md:mt-0 absolute z-[-50] scale-[1] md:object-fill"
       />
       {/* buttons container - buy dvd + stream on + quote */}
-      <div className="w-full  h-screen flex flex-col md:flex-row mt-[400px] md:mt-[-200px]   justify-end md:justify-between items-center md:items-end mb-10 px-10">
+      <div className="w-full  h-screen flex flex-col md:flex-row mt-[-200px]  md:mt-[-200px]   justify-end md:justify-between items-center md:items-end mb-10 px-10">
         <div className="w-full md:w-1/2 flex flex-col  space-y-3  ">
           <button className="bg-[#cc0000] text-white w-[80vw] md:w-[350px] h-[55px]">
             BUY DVD

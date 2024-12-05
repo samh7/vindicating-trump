@@ -3,7 +3,7 @@
 export default function HomeMain() {
   return (
     <div
-      className="w-full   bg-[#060717] text-white"
+      className="w-full -mt-[100px]   bg-[#060717] text-white"
     >
       {/* Text */}
       <div className="w-full h-[100px] px-20 flex justify-end">
