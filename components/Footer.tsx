@@ -4,7 +4,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="relative w-full h-screen">
+    <div
+      className="relative w-full
+    h-screen"
+    >
       <img
         className="w-full h-full
       object-cover
@@ -22,6 +25,8 @@ export default function Footer() {
       flex
       w-full h-full
       items-center
+      justify-center
+      md:justify-start
       md:items-start
       md:pl-20
       flex-col
@@ -38,7 +43,7 @@ export default function Footer() {
 
         <div
           className="no-underline my-6
-          text-sm md:text-xl
+          text-sm md:text-auto
         text-white
         "
         >
