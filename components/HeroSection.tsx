@@ -19,7 +19,7 @@ export default function HeroSection() {
         className="h-[400px] mt-[-280px]  w-full  md:h-[150vh] md:mt-0 absolute z-[-50] scale-[1] md:object-fill"
       />
       {/* buttons container - buy dvd + stream on + quote */}
-      <div className="w-full  h-screen flex flex-col md:flex-row mt-[-200px]  md:mt-[-200px]   justify-end md:justify-between items-center md:items-end mb-10 px-10">
+      <div className="w-full  h-screen flex flex-col lg:flex-row mt-[-200px]  md:mt-[-200px]   justify-end lg:justify-between items-center lg:items-end mb-10 px-10">
         <div className="w-full md:w-1/2 flex flex-col  space-y-3  ">
           <button className="bg-[#cc0000] text-white w-[80vw] md:w-[350px] h-[55px]">
             BUY DVD
@@ -35,7 +35,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className=" w-full md:w-1/2 flex  flex-col items-center mt-2 md:items-end space-y-2">
+        <div className=" w-full md:w-1/2 flex  flex-col items-center mt-2 lg:items-end space-y-2">
           <div className="text-center w-[340px] sm:w-[450px] text-[13.5px] sm:text-[18.5px]">
             <i>
               “Character assassination. Political assassination.
